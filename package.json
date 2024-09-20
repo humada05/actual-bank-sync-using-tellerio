@@ -1,0 +1,15 @@
+{
+  "name": "actual-teller-sync",
+  "version": "1.0.0",
+  "description": "A nodejs script that will fetch all account transactions from your teller.io API and import them into actual budgeting.",
+  "main": "teller-import.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actual-app/api": "^6.10.0"
+  }
+}
